@@ -79,7 +79,7 @@ const Leaderboard = () => {
   const renderFailureView = () => {
      const {errorMsg} = apiResponse 
      return <ErrorMessage>{errorMsg}</ErrorMessage>
-     
+     console.log(errorMsg)
   }
 
   const renderLeaderboard = () => {
